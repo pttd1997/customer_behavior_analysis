@@ -1,6 +1,10 @@
 # customer_behavior_analysis
 An end-to-end analytics project combining SQL, Python, and Power BI to uncover customer insights, perform segmentation, and deliver a business-focused dashboard.
 
+<p align="center">
+  <img src="output/Behavior.png" alt="Customer Behavior Analysis" width="700"/>
+</p>
+
 ## 📌 Project Overview
 This project simulates a real-world data analytics workflow, transforming raw transaction data into actionable business insights.
 
@@ -59,6 +63,6 @@ Using **Python, SQL Server, and Power BI**, I analyzed ~3,900 customer transacti
 
 ## 📈 Dashboard Preview
 
----
-
-## 📁 Project Structure
+<p align="center">
+  <img src="output/Screenshot%202026-04-21%20150951.png" alt="Power BI Dashboard" width="800"/>
+</p>
