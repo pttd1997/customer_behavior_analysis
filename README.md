@@ -16,10 +16,10 @@ Using **Python, SQL Server, and Power BI**, I analyzed ~3,900 customer transacti
 ---
 
 ## ⚙️ Tools & Technologies
-- **Python (Pandas)** — data cleaning & feature engineering  
-- **SQL Server (T-SQL)** — data storage & business analysis  
-- **JupyterLab** — interactive analysis  
-- **Power BI** — dashboard & data visualization  
+- **Python (Pandas)** - data cleaning & feature engineering  
+- **SQL Server (T-SQL)** - data storage & business analysis  
+- **JupyterLab** - interactive analysis  
+- **Power BI** - dashboard & data visualization  
 
 ---
 
