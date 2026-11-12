@@ -64,5 +64,5 @@ Using **Python, SQL Server, and Power BI**, I analyzed ~3,900 customer transacti
 ## 📈 Dashboard Preview
 
 <p align="center">
-  <img src="output/Screenshot%202026-04-21%20150951.png" alt="Power BI Dashboard" width="800"/>
+    <img src="output/dashboard_v2.png" alt="Power BI Dashboard" width="800"/>
 </p>
