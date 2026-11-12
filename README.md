@@ -8,7 +8,7 @@ An end-to-end analytics project combining SQL, Python, and Power BI to uncover c
 ## 📌 Project Overview
 This project simulates a real-world data analytics workflow, transforming raw transaction data into actionable business insights.
 
-Using **Python, SQL Server, and Power BI**, I analyzed ~3,900 customer transactions to understand:
+Using **Python, SQL Server, and Power BI**, I analyzed ~3,900 customer purchase records to understand:
 - Customer behavior and spending patterns  
 - Product performance across categories  
 - Opportunities to improve retention and revenue  
@@ -37,8 +37,9 @@ Using **Python, SQL Server, and Power BI**, I analyzed ~3,900 customer transacti
      - Window functions
 
 3. **Visualization (Power BI)**
-   - Built an interactive dashboard
-   - Enabled filtering by category, subscription status, and shipping type
+   - Built an interactive dashboard with 6 KPI cards: Customers, Total Revenue, Avg. Purchase, Avg. Rating, Subscription Rate and Frequent Non-Subscribers
+   - Wrote DAX measures (`CALCULATE`, `DIVIDE`, `DISTINCTCOUNT`) for subscription rate and target customers
+   - Enabled filtering by location, subscription status, gender, category, season and shipping type
 
 ---
 
@@ -50,14 +51,14 @@ Using **Python, SQL Server, and Power BI**, I analyzed ~3,900 customer transacti
 - 🎯 **High-Value Customers**  
   Customers using discounts still spend above average → not purely price-sensitive  
 
-- ⭐ **Top Performing Products**  
-  Accessories and footwear categories lead in customer satisfaction  
+- ⭐ **Top Rated Products**  
+  Gloves, sandals and boots have the highest average ratings (3.82–3.86), all from the accessories and footwear categories  
 
 - 🔁 **Customer Loyalty**  
-  ~80% of customers are repeat buyers → strong retention but limited new acquisition  
+  ~80% of customers are loyal (more than 10 previous purchases) and only 83 are new → strong retention but limited new acquisition  
 
 - 🚀 **Business Opportunity**  
-  Over **2,500 repeat customers are not subscribed**, representing a major conversion opportunity  
+  Only **27% of customers are subscribed**, and **2,518 frequent buyers (more than 5 previous purchases) are not**, the clearest target group for a subscription campaign
 
 ---
 
